@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin:0;
+            padding:0;
+            background-color: black;
+				color:#8a5a5a;;
+				text-align: center;
+        }
+        td{
+            font-size:40px;
+        }
+        textarea{
+            
+				font-size: 30px;
+				background-color: #2b2037;
+  				color: #0a59bf;
+        }
+        button{
+            font-size: 30px;
+            height: 60px;
+            width:400px;
+            background-color: #2b2037;
+  				color: #0a59bf;
+        }
+    </style>
+</head>
+<body>
+    <form method='post' action='/submit_comment'>
+        <table align="center">
+            <tr>
+                <td>comment:-</td>
+                <td><textarea name="comment" cols="50" rows="5" placeholder="Comment"></textarea></td>
+            </tr>
+        </table>
+     
+        <br>
+        <button value="submit">submit</button>
+    </form>
+</body>
+</html>

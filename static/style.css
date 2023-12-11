@@ -1,0 +1,51 @@
+body {
+	background-color: black;
+	color:#c29494;
+}
+
+.post {
+	border: 2px solid rgb(75, 25, 25);
+	padding: 10px;
+}
+
+.title {
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.post{
+	margin:10px;
+}
+.comment_box{
+	margin-top:50px;
+	border:1px solid black;
+}
+.comment{
+	margin:40px;
+	padding: 10px;
+	border:2px solid rgb(84, 25, 25);
+
+	border-radius: 3%;
+}
+button{
+	font-size: 50px;
+padding: 0px;
+border: 1px solid #5e3c3c;
+border-radius: 5px;
+margin: 50px;
+
+}
+button a{
+	text-decoration: none;
+color: red;
+background-color: black;
+width: 450px;
+display: inline-block;
+}
+button:hover a{
+	color:#5e3c3c;
+	z-index: 1;
+}
+a:hover{
+	color:blue;
+}

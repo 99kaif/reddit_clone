@@ -1,0 +1,50 @@
+<html>
+	<head>
+		<title>Create post</title>
+		<style>
+			body{
+				margin:0;
+				padding:0;
+				background-color: black;
+				color:#8a5a5a;;
+				text-align: center;
+			}
+			input,textarea{
+				height: 60px;
+				width:800px;
+				font-size: 30px;
+				background-color: #2b2037;
+  				color: #0a59bf;
+			}
+			textarea{
+				height: 300px;
+			}
+			table{
+				font-size: 50px;
+				margin-top:50px;
+			}
+			.button{
+				width:500px;
+				margin:20px;
+				font-size: 50px;
+				margin-left: 90px;
+			}
+		</style>
+	</head>
+	<body>
+		<form method="post" action="/submit_post">
+			<table align="center">
+				<tr>
+					<td>Title:</td>
+					<td><input type="text" name="title"/><br></td>
+				</tr>
+				<tr>
+					<td>Content:</td>
+					<td><textarea name="content" rows="5" cols="50"></textarea> </td>
+				</tr>
+			</table>
+			<br>
+			<input class='button' type="submit" value="Click me to submit"/>
+		</form>
+	</body>
+</html>
